@@ -1,0 +1,34 @@
+{
+  "name": "perfmon-lite",
+  "version": "1.0.0",
+  "description": "Zero-dependency performance monitoring middleware for Node.js servers.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "examples"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "performance",
+    "monitoring",
+    "middleware",
+    "nodejs",
+    "express"
+  ],
+  "author": "Haresh Vidja",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
