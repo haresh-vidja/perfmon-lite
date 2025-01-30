@@ -1,6 +1,6 @@
 {
   "name": "perfmon-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency performance monitoring middleware for Node.js servers.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -28,6 +28,10 @@
   ],
   "author": "Haresh Vidja",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haresh-vidja/perfmon-lite.git"
+  },
   "engines": {
     "node": ">=16"
   }
